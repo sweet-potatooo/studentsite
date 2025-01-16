@@ -1,4 +1,4 @@
 # studentsite
 This is my student site for my NMA courses
 
-[View my Site](https://github.com/sweet-potatooo/studentsite)
+[View my Site](https://sweet-potatooo.github.io/studentsite)
