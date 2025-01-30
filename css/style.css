@@ -79,11 +79,22 @@ main {
     margin: 1em auto;
 }
 
-/* STYLING FOR SUB PAGES */
-.page-sub .hero {
-    background-color: rgba(0,0,0,.1);
-    color: rgba(0,0,0,.8)
+/* CUSTOM STYLING FOR SPECIFIC & SUB PAGES */
+.page-home header {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
 }
+
+.page-home .hero {
+    background-image: url('../img/mountain.jpg');
+    background-size: cover;
+    background-position: center top;
+    padding: 10em 1em 6em 1em;
+}
+
+
+
 
 /* COURSES SECTION */
 .courses {
