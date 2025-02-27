@@ -285,7 +285,7 @@ body.demo::before {
     padding: .5em;
 }
 
-@media (min-width: 758px) {
+@media (min-width: 768px) {
     body.demo::before {
         background-color: #bcb83d;
         content: "Midsize (Tablet) 768px - 1050px";
