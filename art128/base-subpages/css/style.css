@@ -223,7 +223,8 @@ button {
 }
 
 button,
-a.button {
+a.button,
+form input[type="submit"] {
     display: inline-block;
     background-color: #036;
     border: 1px solid #036;
@@ -245,7 +246,8 @@ a.button.alt {
 }
 
 button:hover,
-a.button:hover {
+a.button:hover,
+form input[type="submit"]:hover {
     background-color: #003;
     color: #fff;
     border-color: #003;
@@ -547,4 +549,39 @@ article p:first-f-type {
     line-height: 1.3;
 } */
 
+/* FORMS */
 
+form {
+    max-width: 600px;
+    margin: 2em auto;
+}
+form label,
+form input,
+form textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-size: 1em;
+}
+
+form label {
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+}
+
+form input[type="text"],
+form textarea {
+  border: 1px solid #ccc;
+  padding: 0.5em;
+  color: #666;
+}
+
+form textarea {
+    min-height: 10em;
+    line-height: 1.5em;
+}
+
+form input[type="submit"] {
+    margin-top: 1.5em;
+    width: auto;
+}
